@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Merchandiase.com</title>
+    <script src="ecartfecth.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="s1.jpg" type="image" sizes="25*25">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">EveryThing.com</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" onkeyup="filterAccordingToText()" id="searchBar" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="searchButton" >Search</button>
+          </form>
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">SignIn</a>
+                </li>
+                <li class="nav-item" id="">
+                    <a class="nav-link" href="http://127.0.0.1:5500/addcart.html">Cart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:5500/addcart.html" id="cart"></a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+
+      <!-- home -->
+
+      <div class="main" id="a1">
+          <!-- <div class="main1 padding">
+              <a href="#" class="anchor" target="blank" class="link">
+                  <div class="imagediv">
+                      <a href="" title="laptop" target="blank" class="link">
+                          <img src="lenevo.jpg" alt="Lenevo-Ideapad" class="image">
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                    <a href="" title="laptop" target="blank" class="link">
+                       <h3 class="text">Lenovo Ideapad S145 APU Dual Core A6 - (4 GB/1 TB HDD/Windows 10 Home) S145-15AST Laptop  (15.6 inch, Platinum Grey, 1.85 kg)</h3>
+                    </a>
+                </div>
+                <div class="textdiv">
+                       <h3 class="text text1">15.6 inch, Platinum Grey, 1.85 kg</h3>
+                </div>
+                <div class="textdiv">
+                    <a href="" title="laptop" target="blank" class="link">
+                       <button class="but">
+                           4.0<i class="fa fa-star" aria-hidden="true"></i>
+                       </button>
+                    </a>
+                </div>
+                <div class="textdiv">
+                    <a href="" title="laptop" target="blank" class="link">
+                       <span class="sp"><i class="fa fa-inr rup" aria-hidden="true"></i>45000</span>
+                       <span class="mrp"><i class="fa fa-inr rup" aria-hidden="true"></i>50000</span>
+                       <span class="dis">20%off</span>
+                    </a>
+                </div>
+              </a>
+          </div>
+
+            <div class="main1 padding">
+                <a href="#" class="anchor" target="blank" class="link">
+                    <div class="imagediv">
+                        <a href="" title="laptop" target="blank" class="link">
+                            <img src="asus-vivobook14.jpeg" alt="asus-vivobook14" class="image">
+                        </a>
+                    </div>
+                    <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <h3 class="text">Lenovo Ideapad S145 APU Dual Core A6 - (4 GB/1 TB HDD/Windows 10 Home) S145-15AST Laptop  (15.6 inch, Platinum Grey, 1.85 kg)</h3>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                         <h3 class="text text1">14 inch, Platinum Grey, 1.5 kg</h3>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <button class="but">
+                             4.0<i class="fa fa-star" aria-hidden="true"></i>
+                         </button>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <span class="sp"><i class="fa fa-inr rup" aria-hidden="true"></i>35000</span>
+                         <span class="mrp"><i class="fa fa-inr rup" aria-hidden="true"></i>41000</span>
+                         <span class="dis">11%off</span>
+                      </a>
+                  </div>
+                </a>
+            </div>
+
+            <div class="main1 padding">
+                <a href="#" class="anchor" target="blank" class="link">
+                    <div class="imagediv">
+                        <a href="" title="laptop" target="blank" class="link">
+                            <img src="lenevo.jpg" alt="Lenevo-Ideapad" class="image">
+                        </a>
+                    </div>
+                    <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <h3 class="text">Asus VivoBook 14 Ryzen 5 Quad Core 2nd Gen - (8 GB/512 GB SSD/Windows 10 Home) X412DA-EK503T Thin and Light Laptop  (14 inch, Peacock Blue, 1.5 kg)</h3>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                         <h3 class="text text1">15.6 inch, Platinum Grey, 1.85 kg</h3>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <button class="but">
+                             4.0<i class="fa fa-star" aria-hidden="true"></i>
+                         </button>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <span class="sp"><i class="fa fa-inr rup" aria-hidden="true"></i>42000</span>
+                         <span class="mrp"><i class="fa fa-inr rup" aria-hidden="true"></i>48000</span>
+                         <span class="dis">18%off</span>
+                      </a>
+                  </div>
+                </a>
+            </div>
+
+            <div class="main1 padding">
+                <a href="#" class="anchor" target="blank" class="link">
+                    <div class="imagediv">
+                        <a href="" title="laptop" target="blank" class="link">
+                            <img src="dellvostro.jpeg" alt="dellvostro" class="image">
+                        </a>
+                    </div>
+                    <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <h3 class="text">Dell Vostro 3000 Core i3 7th Gen - (4 GB/1 TB HDD/Windows 10 Home) 3581 Laptop  (15.6 inch, Black, 2.4 kg, With MS Office)</h3>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                         <h3 class="text text1">15.6 inch, Black, 2.4 kg, With MS Office</h3>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <button class="but">
+                             4.0<i class="fa fa-star" aria-hidden="true"></i>
+                         </button>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <span class="sp"><i class="fa fa-inr rup" aria-hidden="true"></i>22000</span>
+                         <span class="mrp"><i class="fa fa-inr rup" aria-hidden="true"></i>28000</span>
+                         <span class="dis">10%off</span>
+                      </a>
+                  </div>
+                </a>
+            </div>
+
+            <div class="main1 padding">
+                <a href="#" class="anchor" target="blank" class="link">
+                    <div class="imagediv">
+                        <a href="" title="laptop" target="blank" class="link">
+                            <img src="acerswift3.jpeg" alt="Acerswift3" class="image">
+                        </a>
+                    </div>
+                    <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <h3 class="text">Acer Swift 3 Core i5 8th Gen - (8 GB/512 GB SSD/Windows 10 Home/2 GB Graphics) SF314-55G Thin and Light Laptop  (14 inch, Sparkly Silver, 1.35 kg)</h3>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                         <h3 class="text text1">14 inch, Platinum Grey, 1.8 kg</h3>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <button class="but">
+                             4.0<i class="fa fa-star" aria-hidden="true"></i>
+                         </button>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <span class="sp"><i class="fa fa-inr rup" aria-hidden="true"></i>36000</span>
+                         <span class="mrp"><i class="fa fa-inr rup" aria-hidden="true"></i>50000</span>
+                         <span class="dis">20%off</span>
+                      </a>
+                  </div>
+                </a>
+            </div>
+
+            <div class="main1 padding">
+                <a href="#" class="anchor" target="blank" class="link">
+                    <div class="imagediv">
+                        <a href="" title="laptop" target="blank" class="link">
+                            <img src="acernitro5.jpeg" alt="Acernitro5" class="image">
+                        </a>
+                    </div>
+                    <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <h3 class="text">Acer Nitro 5 Ryzen 5 Quad Core - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home/4 GB Graphics/AMD Radeon RX 560X) AN515-43-R2M9 Gaming Laptop  (15.6 inch, Obsidian Black, 2.3 kg)</h3>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                         <h3 class="text text1">15.6 inch, Obsidian Black, 2.3 kg</h3>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <button class="but">
+                             4.0<i class="fa fa-star" aria-hidden="true"></i>
+                         </button>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <span class="sp"><i class="fa fa-inr rup" aria-hidden="true"></i>48000</span>
+                         <span class="mrp"><i class="fa fa-inr rup" aria-hidden="true"></i>50000</span>
+                         <span class="dis">2%off</span>
+                      </a>
+                  </div>
+                </a>
+            </div>
+
+            <div class="main1 padding">
+                <a href="#" class="anchor" target="blank" class="link">
+                    <div class="imagediv">
+                        <a href="" title="laptop" target="blank" class="link">
+                            <img src="Hp15.jpeg" alt="Hp Pentium" class="image">
+                        </a>
+                    </div>
+                    <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <h3 class="text">HP 15 Pentium Gold - (4 GB/1 TB HDD/Windows 10 Home) 15-da0389TU Laptop  (15.6 inch, Jet Black, 1.91 kg)</h3>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                         <h3 class="text text1">15.6 inch, Jet Black, 1.91 kg</h3>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <button class="but">
+                             4.0<i class="fa fa-star" aria-hidden="true"></i>
+                         </button>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <span class="sp"><i class="fa fa-inr rup" aria-hidden="true"></i>43000</span>
+                         <span class="mrp"><i class="fa fa-inr rup" aria-hidden="true"></i>50000</span>
+                         <span class="dis">13%off</span>
+                      </a>
+                  </div>
+                </a>
+            </div>
+
+            <div class="main1 padding">
+                <a href="#" class="anchor" target="blank" class="link">
+                    <div class="imagediv">
+                        <a href="" title="laptop" target="blank" class="link">
+                            <img src="Apple.jpeg" alt="Apple MacBook" class="image">
+                        </a>
+                    </div>
+                    <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <h3 class="text">Apple MacBook Air Core i5 5th Gen - (8 GB/128 GB SSD/Mac OS Sierra) MQD32HN/A A1466  (13.3 inch, Silver, 1.35 kg)</h3>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                         <h3 class="text text1">13.3 inch, Silver, 1.35 kg</h3>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <button class="but">
+                             4.0<i class="fa fa-star" aria-hidden="true"></i>
+                         </button>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <span class="sp"><i class="fa fa-inr rup" aria-hidden="true"></i>49000</span>
+                         <span class="mrp"><i class="fa fa-inr rup" aria-hidden="true"></i>50000</span>
+                         <span class="dis">1%off</span>
+                      </a>
+                  </div>
+                </a>
+            </div>
+
+            <div class="main1 padding">
+                <a href="#" class="anchor" target="blank" class="link">
+                    <div class="imagediv">
+                        <a href="" title="laptop" target="blank" class="link">
+                            <img src="Dell.jpeg" alt="DellG3" class="image">
+                        </a>
+                    </div>
+                    <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <h3 class="text">Dell G3 Series Core i5 8th Gen - (8 GB/1 TB HDD/128 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA Geforce GTX 1050) 3579 Gaming Laptop  (15.6 inch, Licorice Black, 2.53 kg, With MS Office)</h3>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                         <h3 class="text text1">15.6 inch, Licorice Black, 2.53 kg, With MS Office</h3>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <button class="but">
+                             4.0<i class="fa fa-star" aria-hidden="true"></i>
+                         </button>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <span class="sp"><i class="fa fa-inr rup" aria-hidden="true"></i>39000</span>
+                         <span class="mrp"><i class="fa fa-inr rup" aria-hidden="true"></i>41800</span>
+                         <span class="dis">20%off</span>
+                      </a>
+                  </div>
+                </a>
+            </div>
+
+            <div class="main1 padding">
+                <a href="#" class="anchor" target="blank" class="link">
+                    <div class="imagediv">
+                        <a href="" title="laptop" target="blank" class="link">
+                            <img src="Acer.jpeg" alt="Acer Predator" class="image">
+                        </a>
+                    </div>
+                    <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <h3 class="text">Acer Predator Triton 300 Core i7 9th Gen - (8 GB/2 TB HDD/256 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA Geforce GTX 1650) pt315-51-79ud Gaming Laptop  (15.6 inch, Abyssal Black, 2.3 kg)</h3>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                         <h3 class="text text1">15.6 inch, Platinum Grey, 1.85 kg</h3>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <button class="but">
+                             4.0<i class="fa fa-star" aria-hidden="true"></i>
+                         </button>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <span class="sp"><i class="fa fa-inr rup" aria-hidden="true"></i>23500</span>
+                         <span class="mrp"><i class="fa fa-inr rup" aria-hidden="true"></i>31500</span>
+                         <span class="dis">20%off</span>
+                      </a>
+                  </div>
+                </a>
+            </div>
+
+            <div class="main1 padding">
+                <a href="#" class="anchor" target="blank" class="link">
+                    <div class="imagediv">
+                        <a href="" title="laptop" target="blank" class="link">
+                            <img src="asus-vivobook14.jpeg" alt="asus-vivobook14" class="image">
+                        </a>
+                    </div>
+                    <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <h3 class="text">Lenovo Ideapad S145 APU Dual Core A6 - (4 GB/1 TB HDD/Windows 10 Home) S145-15AST Laptop  (15.6 inch, Platinum Grey, 1.85 kg)</h3>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                         <h3 class="text text1">14 inch, Platinum Grey, 1.5 kg</h3>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <button class="but">
+                             4.0<i class="fa fa-star" aria-hidden="true"></i>
+                         </button>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <span class="sp"><i class="fa fa-inr rup" aria-hidden="true"></i>12546</span>
+                         <span class="mrp"><i class="fa fa-inr rup" aria-hidden="true"></i>14252</span>
+                         <span class="dis">20%off</span>
+                      </a>
+                  </div>
+                </a>
+            </div>
+
+            <div class="main1 padding">
+                <a href="#" class="anchor" target="blank" class="link">
+                    <div class="imagediv">
+                        <a href="" title="laptop" target="blank" class="link">
+                            <img src="lenevo.jpg" alt="Lenevo-Ideapad" class="image">
+                        </a>
+                    </div>
+                    <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <h3 class="text">Asus VivoBook 14 Ryzen 5 Quad Core 2nd Gen - (8 GB/512 GB SSD/Windows 10 Home) X412DA-EK503T Thin and Light Laptop  (14 inch, Peacock Blue, 1.5 kg)</h3>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                         <h3 class="text text1">15.6 inch, Platinum Grey, 1.85 kg</h3>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <button class="but">
+                             4.0<i class="fa fa-star" aria-hidden="true"></i>
+                         </button>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <span class="sp"><i class="fa fa-inr rup" aria-hidden="true"></i>27999</span>
+                         <span class="mrp"><i class="fa fa-inr rup" aria-hidden="true"></i>38999</span>
+                         <span class="dis">20%off</span>
+                      </a>
+                  </div>
+                </a>
+            </div>
+
+            <div class="main1 padding">
+                <a href="#" class="anchor" target="blank" class="link">
+                    <div class="imagediv">
+                        <a href="" title="laptop" target="blank" class="link">
+                            <img src="dellvostro.jpeg" alt="dellvostro" class="image">
+                        </a>
+                    </div>
+                    <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <h3 class="text">Dell Vostro 3000 Core i3 7th Gen - (4 GB/1 TB HDD/Windows 10 Home) 3581 Laptop  (15.6 inch, Black, 2.4 kg, With MS Office)</h3>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                         <h3 class="text text1">15.6 inch, Black, 2.4 kg, With MS Office</h3>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <button class="but">
+                             4.0<i class="fa fa-star" aria-hidden="true"></i>
+                         </button>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <span class="sp"><i class="fa fa-inr rup" aria-hidden="true"></i>47554</span>
+                         <span class="mrp"><i class="fa fa-inr rup" aria-hidden="true"></i>55500</span>
+                         <span class="dis">20%off</span>
+                      </a>
+                  </div>
+                </a>
+            </div>
+
+            <div class="main1 padding">
+                <a href="#" class="anchor" target="blank" class="link">
+                    <div class="imagediv">
+                        <a href="" title="laptop" target="blank" class="link">
+                            <img src="acerswift3.jpeg" alt="Acerswift3" class="image">
+                        </a>
+                    </div>
+                    <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <h3 class="text">Acer Swift 3 Core i5 8th Gen - (8 GB/512 GB SSD/Windows 10 Home/2 GB Graphics) SF314-55G Thin and Light Laptop  (14 inch, Sparkly Silver, 1.35 kg)</h3>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                         <h3 class="text text1">14 inch, Platinum Grey, 1.8 kg</h3>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <button class="but">
+                             4.0<i class="fa fa-star" aria-hidden="true"></i>
+                         </button>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <span class="sp"><i class="fa fa-inr rup" aria-hidden="true"></i>15522</span>
+                         <span class="mrp"><i class="fa fa-inr rup" aria-hidden="true"></i>31252</span>
+                         <span class="dis">25%off</span>
+                      </a>
+                  </div>
+                </a>
+            </div>
+
+
+            <div class="main1 padding">
+                <a href="#" class="anchor" target="blank" class="link">
+                    <div class="imagediv">
+                        <a href="" title="laptop" target="blank" class="link">
+                            <img src="lenevo.jpg" alt="Lenevo-Ideapad" class="image">
+                        </a>
+                    </div>
+                    <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <h3 class="text">Lenovo Ideapad S145 APU Dual Core A6 - (4 GB/1 TB HDD/Windows 10 Home) S145-15AST Laptop  (15.6 inch, Platinum Grey, 1.85 kg)</h3>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                         <h3 class="text text1">15.6 inch, Platinum Grey, 1.85 kg</h3>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <button class="but">
+                             4.0<i class="fa fa-star" aria-hidden="true"></i>
+                         </button>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <span class="sp"><i class="fa fa-inr rup" aria-hidden="true"></i>45000</span>
+                         <span class="mrp"><i class="fa fa-inr rup" aria-hidden="true"></i>50000</span>
+                         <span class="dis">20%off</span>
+                      </a>
+                  </div>
+                </a>
+            </div>
+
+            <div class="main1 padding">
+                <a href="#" class="anchor" target="blank" class="link">
+                    <div class="imagediv">
+                        <a href="" title="laptop" target="blank" class="link">
+                            <img src="asus rog.jpeg" alt="Lenevo-Ideapad" class="image">
+                        </a>
+                    </div>
+                    <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <h3 class="text">Asus ROG Strix G Core i5 9th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA Geforce GTX 1650) G531GT-BQ024T Gaming Laptop  (15.6 inch, Black, 2.4 kg)</h3>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                         <h3 class="text text1">15.6 inch, Platinum Grey, 1.85 kg</h3>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <button class="but">
+                             4.0<i class="fa fa-star" aria-hidden="true"></i>
+                         </button>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <span class="sp"><i class="fa fa-inr rup" aria-hidden="true"></i>45662</span>
+                         <span class="mrp"><i class="fa fa-inr rup" aria-hidden="true"></i>48222</span>
+                         <span class="dis">20%off</span>
+                      </a>
+                  </div>
+                </a>
+            </div>
+
+            <div class="main1 padding">
+                <a href="#" class="anchor" target="blank" class="link">
+                    <div class="imagediv">
+                        <a href="" title="laptop" target="blank" class="link">
+                            <img src="acer i5.jpeg" alt="Lenevo-Ideapad" class="image">
+                        </a>
+                    </div>
+                    <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <h3 class="text">Acer Nitro 5 Core i5 9th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA Geforce GTX 1650) AN515-54-521N Gaming Laptop  (15.6 inch, Obsidian Black, 2.3 kg)</h3>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                         <h3 class="text text1">15.6 inch, Platinum Grey, 1.85 kg</h3>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <button class="but">
+                             4.0<i class="fa fa-star" aria-hidden="true"></i>
+                         </button>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <span class="sp"><i class="fa fa-inr rup" aria-hidden="true"></i>45000</span>
+                         <span class="mrp"><i class="fa fa-inr rup" aria-hidden="true"></i>50000</span>
+                         <span class="dis">20%off</span>
+                      </a>
+                  </div>
+                </a>
+            </div>
+
+            <div class="main1 padding">
+                <a href="#" class="anchor" target="blank" class="link">
+                    <div class="imagediv">
+                        <a href="" title="laptop" target="blank" class="link">
+                            <img src="Lenevoideapad.jpeg" alt="Lenevo-Ideapad" class="image">
+                        </a>
+                    </div>
+                    <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <h3 class="text">Lenovo Ideapad S145 APU Dual Core A6 - (4 GB/1 TB HDD/DOS) S145-15AST Laptop  (15.6 inch, Platinum Grey, 1.85 kg)</h3>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                         <h3 class="text text1">15.6 inch, Platinum Grey, 1.85 kg</h3>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <button class="but">
+                             4.0<i class="fa fa-star" aria-hidden="true"></i>
+                         </button>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <span class="sp"><i class="fa fa-inr rup" aria-hidden="true"></i>45000</span>
+                         <span class="mrp"><i class="fa fa-inr rup" aria-hidden="true"></i>50000</span>
+                         <span class="dis">20%off</span>
+                      </a>
+                  </div>
+                </a>
+            </div>
+
+            <div class="main1 padding">
+                <a href="#" class="anchor" target="blank" class="link">
+                    <div class="imagediv">
+                        <a href="" title="laptop" target="blank" class="link">
+                            <img src="lenevo.jpg" alt="Lenevo-Ideapad" class="image">
+                        </a>
+                    </div>
+                    <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <h3 class="text">Lenovo Ideapad S145 APU Dual Core A6 - (4 GB/1 TB HDD/Windows 10 Home) S145-15AST Laptop  (15.6 inch, Platinum Grey, 1.85 kg)</h3>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                         <h3 class="text text1">15.6 inch, Platinum Grey, 1.85 kg</h3>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <button class="but">
+                             4.0<i class="fa fa-star" aria-hidden="true"></i>
+                         </button>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <span class="sp"><i class="fa fa-inr rup" aria-hidden="true"></i>45000</span>
+                         <span class="mrp"><i class="fa fa-inr rup" aria-hidden="true"></i>50000</span>
+                         <span class="dis">20%off</span>
+                      </a>
+                  </div>
+                </a>
+            </div>
+
+            
+            <div class="main1 padding">
+                <a href="#" class="anchor" target="blank" class="link">
+                    <div class="imagediv">
+                        <a href="" title="laptop" target="blank" class="link">
+                            <img src="lenevo.jpg" alt="Lenevo-Ideapad" class="image">
+                        </a>
+                    </div>
+                    <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <h3 class="text">Lenovo Ideapad S145 APU Dual Core A6 - (4 GB/1 TB HDD/Windows 10 Home) S145-15AST Laptop  (15.6 inch, Platinum Grey, 1.85 kg)</h3>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                         <h3 class="text text1">15.6 inch, Platinum Grey, 1.85 kg</h3>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <button class="but">
+                             4.0<i class="fa fa-star" aria-hidden="true"></i>
+                         </button>
+                      </a>
+                  </div>
+                  <div class="textdiv">
+                      <a href="" title="laptop" target="blank" class="link">
+                         <span class="sp"><i class="fa fa-inr rup" aria-hidden="true"></i>45000</span>
+                         <span class="mrp"><i class="fa fa-inr rup" aria-hidden="true"></i>50000</span>
+                         <span class="dis">20%off</span>
+                      </a>
+                  </div>
+                </a>
+            </div>
+ -->
+
+            
+            
+      </div>
+
+
+
+
+
+
+
+
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

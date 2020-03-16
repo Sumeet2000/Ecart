@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.inline{
+ display: flex;
+ margin-top: 10px;
+}
+.inlinediv{
+    width: 40%;
+    height: fit-content;
+    padding: 25px 0;
+    overflow: auto;
+    position: sticky;
+    top: 10px;
+}
+.inlinediv1{
+    width: 60%;
+    overflow-y: auto;
+    padding: 25px 5px;
+}
+.imgdiv{
+    padding: 20px;
+    height: 450px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.bigimg{
+    height: 250px;
+    width: 300px;
+}
+.addcart{
+    width:200px ;
+    height: 60px;
+    margin-right: 50px;
+    background-color: green;
+    outline: none;
+    border: none;
+}
+.flex{
+    display: flex;
+}
+.buy{
+    width: 200px;
+    height: 60px;
+    background-color: orangered;
+    outline: none;
+    border: none;
+}
+.size{
+    font-size: 14px;
+    font-weight: 500;
+}
+.size1{
+    font-size: 16px;
+    font-weight: 600;
+}
+.size2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.size3{
+    font-size: 18px;
+}
+.size4{
+    font-size: 25px;
+}
+.colr{
+    color: gray;
+}
+.bor{
+    border: 1px solid #80808061;
+}
+.fle{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.but{
+    background-color: green;
+    border: 1px;
+    border-radius: 6px;
+    height: 25px;
+    width: 60px;
+}
+i{
+    font-size: 10px;
+    color: white;
+    margin-left: 4px;
+}
+.rup{
+    color: black;
+}
+.sp{
+    font-size: 25px;
+    font-weight: 600;
+}
+.mrp{
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+    text-decoration: line-through;
+}
+.dis{
+    font-size: 13px;
+    color: green;
+    font-weight: bold;
+}
+.g{
+    color: green;
+}
+.b{
+    color: #003affab;
+    font-weight: bold;
+}
+li{
+    list-style-type: none;
+}
+.ds{
+    display: flex;
+    margin: 22px 0;
+}
+.dslef{
+    width: 18%;
+}
+.dsrg{
+    width: 70%;
+}
+.deli{
+    width: 220px;
+    height: 30px;
+    border: none;
+    border-bottom:1px solid blue;
+    outline: none;
+    text-align: center;
+    padding: 0 0 6px 0;
+}

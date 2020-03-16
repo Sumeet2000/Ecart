@@ -1,0 +1,519 @@
+[
+    {
+        "id":"1",
+        "name":"Lenovo Ideapad S145 APU Dual Core A6 - (4 GB/1 TB HDD/Windows 10 Home) S145-15AST Laptop (15.6 inch, Platinum Grey, 1.85 kg)",
+        "rating":"4.3",
+        "mrp":"45000",
+        "dis":"20",
+        "Availableoffer":[
+                           "5 Unlimited Cashback on Flipkart Axis Bank Credit Card",
+                            "5 Instant Discount on EMI with ICICI Bank Credit and Debit Cards",
+                           "Extra 5 off* with Axis Bank Buzz Credit Card ",
+                           "Get upto ₹8400 off on exchange",
+                            " ₹1,583/month. Standard EMI also available "],
+        "Highlights":[
+                    "Pre-installed Genuine Windows 10 OS",
+                    "Laptop without Optical Disk Drive",
+                    "15.6 inch HD LED Backlit Anti-glare TN Display (220 nits Brightness)"
+        ],
+        "EasyPaymentOtions":[
+                               "No cost EMI starting from ₹1,583/month",
+                               "on Delivery",
+                               "Net banking & Credit/ Debit/ ATM card"
+        ],
+        "images":"lenevo.jpg"
+        
+    },
+
+    {
+        "id":"2",
+        "name":"Lenovo Ideapad S145 APU Dual Core A6 - (4 GB/1 TB HDD/Windows 10 Home) S145-15AST Laptop  (15.6 inch, Platinum Grey, 1.85 kg)",
+        "rating":"4.0",
+        "mrp":"45000",
+        "dis":"11",
+        "Availableoffer":[
+                           "5 Unlimited Cashback on Flipkart Axis Bank Credit Card T&C",
+                            "5 Instant Discount on EMI with ICICI Bank Credit and Debit Cards T&C",
+                           "Extra 5 off* with Axis Bank Buzz Credit Card T&C",
+                           "Get upto ₹8400 off on exchange",
+                            " ₹1,583/month. Standard EMI also available "],
+        "Highlights":[
+                    "Pre-installed Genuine Windows 10 OS",
+                    "Laptop without Optical Disk Drive",
+                    "14 inch HD LED Backlit Anti-glare TN Display (400 nits Brightness)"
+        ],
+        "EasyPaymentOtions":[
+                               "No cost EMI starting from ₹1,583/month",
+                               "on Delivery",
+                               "Net banking & Credit/ Debit/ ATM card"
+        ],
+        "images":"asus-vivobook14.jpeg"
+        
+
+    },
+    
+    {
+        "id":"3",
+        "name":"Asus VivoBook 14 Ryzen 5 Quad Core 2nd Gen - (8 GB/512 GB SSD/Windows 10 Home) X412DA-EK503T Thin and Light Laptop  (14 inch, Peacock Blue, 1.5 kg)",
+        "rating":"3.3",
+        "mrp":"48000",
+        "dis":"18",
+        "Availableoffer":[
+                           "5 Unlimited Cashback on Flipkart Axis Bank Credit Card T&C",
+                            "5 Instant Discount on EMI with ICICI Bank Credit and Debit Cards T&C",
+                           "Extra 5 off* with Axis Bank Buzz Credit Card T&C",
+                           "Get upto ₹8400 off on exchange",
+                            " ₹1,583/month. Standard EMI also available "],
+        "Highlights":[
+                    "Pre-installed Genuine Windows 10 OS",
+                    "Laptop without Optical Disk Drive",
+                    "15.6 inch HD LED Backlit Anti-glare TN Display (400 nits Brightness)"
+        ],
+        "EasyPaymentOtions":[
+                               "No cost EMI starting from ₹1,583/month",
+                               "on Delivery",
+                               "Net banking & Credit/ Debit/ ATM card"
+        ],
+        "images":"lenevo.jpg"
+         
+    },
+
+    {
+        "id":"4",
+        "name":"Dell Vostro 3000 Core i3 7th Gen - (4 GB/1 TB HDD/Windows 10 Home) 3581 Laptop  (15.6 inch, Black, 2.4 kg, With MS Office)",
+        "rating":"4.1",
+        "mrp":"28000",
+        "dis":"10",
+        "Availableoffer":[
+                           "5 Unlimited Cashback on Flipkart Axis Bank Credit Card T&C",
+                            "5 Instant Discount on EMI with ICICI Bank Credit and Debit Cards T&C",
+                           "Extra 5 off* with Axis Bank Buzz Credit Card T&C"
+                        ],
+        "Highlights":[
+                    "Pre-installed Genuine Windows 10 OS",
+                    "Laptop without Optical Disk Drive",
+                    "15.6 inch HD LED Backlit Anti-glare TN Display (400 nits Brightness)"
+        ],
+        "EasyPaymentOtions":[
+                               "No cost EMI starting from ₹1,583/month",
+                               "on Delivery",
+                               "Net banking & Credit/ Debit/ ATM card"
+        ],
+        "images":"dellvostro.jpeg"
+         
+    },
+
+    {
+        "id":"5",
+        "name":"Acer Swift 3 Core i5 8th Gen - (8 GB/512 GB SSD/Windows 10 Home/2 GB Graphics) SF314-55G Thin and Light Laptop  (14 inch, Sparkly Silver, 1.35 kg)",
+        "rating":"4.3",
+        "mrp":"50000",
+        "dis":"18",
+        "Availableoffer":[
+                           "5 Unlimited Cashback on Flipkart Axis Bank Credit Card T&C",
+                            "5 Instant Discount on EMI with ICICI Bank Credit and Debit Cards T&C",
+                           "Extra 5 off* with Axis Bank Buzz Credit Card T&C",
+                           "Get upto ₹8400 off on exchange",
+                            " ₹1,583/month. Standard EMI also available "],
+        "Highlights":[
+                    "Pre-installed Genuine Windows 10 OS",
+                    "Laptop without Optical Disk Drive",
+                    "15.6 inch HD LED Backlit Anti-glare TN Display (400 nits Brightness)"
+        ],
+        "EasyPaymentOtions":[
+                               "No cost EMI starting from ₹1,583/month",
+                               "on Delivery",
+                               "Net banking & Credit/ Debit/ ATM card"
+        ],
+        "images":"acerswift3.jpeg"
+         
+    },
+
+    {
+        "id":"6",
+        "name":"Acer Nitro 5 Ryzen 5 Quad Core - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home/4 GB Graphics/AMD Radeon RX 560X) AN515-43-R2M9 Gaming Laptop  (15.6 inch, Obsidian Black, 2.3 kg)",
+        "rating":"4.3",
+        "mrp":"50000",
+        "dis":"2",
+        "Availableoffer":[
+                           "5 Unlimited Cashback on Flipkart Axis Bank Credit Card T&C",
+                            "5 Instant Discount on EMI with ICICI Bank Credit and Debit Cards T&C",
+                           "Extra 5 off* with Axis Bank Buzz Credit Card T&C",
+                           "Get upto ₹8400 off on exchange",
+                            " ₹1,583/month. Standard EMI also available "],
+        "Highlights":[
+                    "Pre-installed Genuine Windows 10 OS",
+                    "Laptop without Optical Disk Drive",
+                    "15.6 inch HD LED Backlit Anti-glare TN Display (400 nits Brightness)"
+        ],
+        "EasyPaymentOtions":[
+                               "No cost EMI starting from ₹1,583/month",
+                               "on Delivery",
+                               "Net banking & Credit/ Debit/ ATM card"
+        ],
+        "images":"acernitro5.jpeg"
+         
+    },
+
+    {
+        "id":"7",
+        "name":"HP 15 Pentium Gold - (4 GB/1 TB HDD/Windows 10 Home) 15-da0389TU Laptop  (15.6 inch, Jet Black, 1.91 kg)",
+        "rating":"4.3",
+        "mrp":"50000",
+        "dis":"2",
+        "Availableoffer":[
+                           "5 Unlimited Cashback on Flipkart Axis Bank Credit Card T&C",
+                            "5 Instant Discount on EMI with ICICI Bank Credit and Debit Cards T&C",
+                           "Extra 5 off* with Axis Bank Buzz Credit Card T&C",
+                           "Get upto ₹8400 off on exchange",
+                            " ₹1,583/month. Standard EMI also available "],
+        "Highlights":[
+                    "Pre-installed Genuine Windows 10 OS",
+                    "Laptop without Optical Disk Drive",
+                    "15.6 inch HD LED Backlit Anti-glare TN Display (400 nits Brightness)"
+        ],
+        "EasyPaymentOtions":[
+                               "No cost EMI starting from ₹1,583/month",
+                               "on Delivery",
+                               "Net banking & Credit/ Debit/ ATM card"
+        ],
+        "images":"Hp15.jpeg"
+         
+    },
+
+    {
+        "id":"8",
+        "name":"Apple MacBook Air Core i5 5th Gen - (8 GB/128 GB SSD/Mac OS Sierra) MQD32HN/A A1466  (13.3 inch, Silver, 1.35 kg)",
+        "rating":"4.3",
+        "mrp":"50000",
+        "dis":"2",
+        "Availableoffer":[
+                           "5 Unlimited Cashback on Flipkart Axis Bank Credit Card T&C",
+                            "5 Instant Discount on EMI with ICICI Bank Credit and Debit Cards T&C",
+                           "Extra 5 off* with Axis Bank Buzz Credit Card T&C",
+                           "Get upto ₹8400 off on exchange",
+                            " ₹1,583/month. Standard EMI also available "],
+        "Highlights":[
+                    "Pre-installed Genuine Windows 10 OS",
+                    "Laptop without Optical Disk Drive",
+                    "15.6 inch HD LED Backlit Anti-glare TN Display (400 nits Brightness)"
+        ],
+        "EasyPaymentOtions":[
+                               "No cost EMI starting from ₹1,583/month",
+                               "on Delivery",
+                               "Net banking & Credit/ Debit/ ATM card"
+        ],
+        "images":"Apple.jpeg"
+         
+    },
+
+    {
+        "id":"9",
+        "name":"Dell G3 Series Core i5 8th Gen - (8 GB/1 TB HDD/128 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA Geforce GTX 1050) 3579 Gaming Laptop  (15.6 inch, Licorice Black, 2.53 kg, With MS Office)",
+        "rating":"4.3",
+        "mrp":"50000",
+        "dis":"2",
+        "Availableoffer":[
+                           "5 Unlimited Cashback on Flipkart Axis Bank Credit Card T&C",
+                            "5 Instant Discount on EMI with ICICI Bank Credit and Debit Cards T&C",
+                           "Extra 5 off* with Axis Bank Buzz Credit Card T&C",
+                           "Get upto ₹8400 off on exchange",
+                            " ₹1,583/month. Standard EMI also available "],
+        "Highlights":[
+                    "Pre-installed Genuine Windows 10 OS",
+                    "Laptop without Optical Disk Drive",
+                    "15.6 inch HD LED Backlit Anti-glare TN Display (400 nits Brightness)"
+        ],
+        "EasyPaymentOtions":[
+                               "No cost EMI starting from ₹1,583/month",
+                               "on Delivery",
+                               "Net banking & Credit/ Debit/ ATM card"
+        ],
+        "images":"Dell.jpeg"
+         
+    },
+
+    
+    {
+        "id":"10",
+        "name":"Acer Predator Triton 300 Core i7 9th Gen - (8 GB/2 TB HDD/256 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA Geforce GTX 1650) pt315-51-79ud Gaming Laptop  (15.6 inch, Abyssal Black, 2.3 kg)",
+        "rating":"4.3",
+        "mrp":"50000",
+        "dis":"2",
+        "Availableoffer":[
+                           "5 Unlimited Cashback on Flipkart Axis Bank Credit Card T&C",
+                            "5 Instant Discount on EMI with ICICI Bank Credit and Debit Cards T&C",
+                           "Extra 5 off* with Axis Bank Buzz Credit Card T&C",
+                           "Get upto ₹8400 off on exchange",
+                            " ₹1,583/month. Standard EMI also available "],
+        "Highlights":[
+                    "Pre-installed Genuine Windows 10 OS",
+                    "Laptop without Optical Disk Drive",
+                    "15.6 inch HD LED Backlit Anti-glare TN Display (400 nits Brightness)"
+        ],
+        "EasyPaymentOtions":[
+                               "No cost EMI starting from ₹1,583/month",
+                               "on Delivery",
+                               "Net banking & Credit/ Debit/ ATM card"
+        ],
+        "images":"Acer.jpeg"
+         
+    },
+
+    {
+        "id":"11",
+        "name":"Lenovo Ideapad S145 APU Dual Core A6 - (4 GB/1 TB HDD/Windows 10 Home) S145-15AST Laptop  (15.6 inch, Platinum Grey, 1.85 kg)",
+        "rating":"4.3",
+        "mrp":"50000",
+        "dis":"2",
+        "Availableoffer":[
+                           "5 Unlimited Cashback on Flipkart Axis Bank Credit Card T&C",
+                            "5 Instant Discount on EMI with ICICI Bank Credit and Debit Cards T&C",
+                           "Extra 5 off* with Axis Bank Buzz Credit Card T&C",
+                           "Get upto ₹8400 off on exchange",
+                            " ₹1,583/month. Standard EMI also available "],
+        "Highlights":[
+                    "Pre-installed Genuine Windows 10 OS",
+                    "Laptop without Optical Disk Drive",
+                    "15.6 inch HD LED Backlit Anti-glare TN Display (400 nits Brightness)"
+        ],
+        "EasyPaymentOtions":[
+                               "No cost EMI starting from ₹1,583/month",
+                               "on Delivery",
+                               "Net banking & Credit/ Debit/ ATM card"
+        ],
+        "images":"asus-vivobook14.jpeg"
+         
+    },
+
+    {
+        "id":"12",
+        "name":"Asus VivoBook 14 Ryzen 5 Quad Core 2nd Gen - (8 GB/512 GB SSD/Windows 10 Home) X412DA-EK503T Thin and Light Laptop  (14 inch, Peacock Blue, 1.5 kg)",
+        "rating":"4.3",
+        "mrp":"50000",
+        "dis":"2",
+        "Availableoffer":[
+                           "5 Unlimited Cashback on Flipkart Axis Bank Credit Card T&C",
+                            "5 Instant Discount on EMI with ICICI Bank Credit and Debit Cards T&C",
+                           "Extra 5 off* with Axis Bank Buzz Credit Card T&C",
+                           "Get upto ₹8400 off on exchange",
+                            " ₹1,583/month. Standard EMI also available "],
+        "Highlights":[
+                    "Pre-installed Genuine Windows 10 OS",
+                    "Laptop without Optical Disk Drive",
+                    "15.6 inch HD LED Backlit Anti-glare TN Display (400 nits Brightness)"
+        ],
+        "EasyPaymentOtions":[
+                               "No cost EMI starting from ₹1,583/month",
+                               "on Delivery",
+                               "Net banking & Credit/ Debit/ ATM card"
+        ],
+        "images":"lenevo.jpg"
+         
+    },
+
+    {
+        "id":"13",
+        "name":"Dell Vostro 3000 Core i3 7th Gen - (4 GB/1 TB HDD/Windows 10 Home) 3581 Laptop  (15.6 inch, Black, 2.4 kg, With MS Office)",
+        "rating":"4.3",
+        "mrp":"50000",
+        "dis":"2",
+        "Availableoffer":[
+                           "5 Unlimited Cashback on Flipkart Axis Bank Credit Card T&C",
+                            "5 Instant Discount on EMI with ICICI Bank Credit and Debit Cards T&C",
+                           "Extra 5 off* with Axis Bank Buzz Credit Card T&C",
+                           "Get upto ₹8400 off on exchange",
+                            " ₹1,583/month. Standard EMI also available "],
+        "Highlights":[
+                    "Pre-installed Genuine Windows 10 OS",
+                    "Laptop without Optical Disk Drive",
+                    "15.6 inch HD LED Backlit Anti-glare TN Display (400 nits Brightness)"
+        ],
+        "EasyPaymentOtions":[
+                               "No cost EMI starting from ₹1,583/month",
+                               "on Delivery",
+                               "Net banking & Credit/ Debit/ ATM card"
+        ],
+        "images":"dellvostro.jpeg"
+         
+    },
+
+    {
+        "id":"14",
+        "name":"Acer Swift 3 Core i5 8th Gen - (8 GB/512 GB SSD/Windows 10 Home/2 GB Graphics) SF314-55G Thin and Light Laptop  (14 inch, Sparkly Silver, 1.35 kg)",
+        "rating":"4.3",
+        "mrp":"50000",
+        "dis":"2",
+        "Availableoffer":[
+                           "5 Unlimited Cashback on Flipkart Axis Bank Credit Card T&C",
+                            "5 Instant Discount on EMI with ICICI Bank Credit and Debit Cards T&C",
+                           "Extra 5 off* with Axis Bank Buzz Credit Card T&C",
+                           "Get upto ₹8400 off on exchange",
+                            " ₹1,583/month. Standard EMI also available "],
+        "Highlights":[
+                    "Pre-installed Genuine Windows 10 OS",
+                    "Laptop without Optical Disk Drive",
+                    "15.6 inch HD LED Backlit Anti-glare TN Display (400 nits Brightness)"
+        ],
+        "EasyPaymentOtions":[
+                               "No cost EMI starting from ₹1,583/month",
+                               "on Delivery",
+                               "Net banking & Credit/ Debit/ ATM card"
+        ],
+        "images":"acerswift3.jpeg"
+         
+    },
+
+    {
+        "id":"15",
+        "name":"Lenovo Ideapad S145 APU Dual Core A6 - (4 GB/1 TB HDD/Windows 10 Home) S145-15AST Laptop  (15.6 inch, Platinum Grey, 1.85 kg)",
+        "rating":"4.3",
+        "mrp":"50000",
+        "dis":"2",
+        "Availableoffer":[
+                           "5 Unlimited Cashback on Flipkart Axis Bank Credit Card T&C",
+                            "5 Instant Discount on EMI with ICICI Bank Credit and Debit Cards T&C",
+                           "Extra 5 off* with Axis Bank Buzz Credit Card T&C",
+                           "Get upto ₹8400 off on exchange",
+                            " ₹1,583/month. Standard EMI also available "],
+        "Highlights":[
+                    "Pre-installed Genuine Windows 10 OS",
+                    "Laptop without Optical Disk Drive",
+                    "15.6 inch HD LED Backlit Anti-glare TN Display (400 nits Brightness)"
+        ],
+        "EasyPaymentOtions":[
+                               "No cost EMI starting from ₹1,583/month",
+                               "on Delivery",
+                               "Net banking & Credit/ Debit/ ATM card"
+        ],
+        "images":"lenevo.jpg"
+         
+    },
+
+    {
+        "id":"16",
+        "name":"Asus ROG Strix G Core i5 9th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA Geforce GTX 1650) G531GT-BQ024T Gaming Laptop  (15.6 inch, Black, 2.4 kg)",
+        "rating":"4.3",
+        "mrp":"50000",
+        "dis":"2",
+        "Availableoffer":[
+                           "5 Unlimited Cashback on Flipkart Axis Bank Credit Card T&C",
+                            "5 Instant Discount on EMI with ICICI Bank Credit and Debit Cards T&C",
+                           "Extra 5 off* with Axis Bank Buzz Credit Card T&C",
+                           "Get upto ₹8400 off on exchange",
+                            " ₹1,583/month. Standard EMI also available "],
+        "Highlights":[
+                    "Pre-installed Genuine Windows 10 OS",
+                    "Laptop without Optical Disk Drive",
+                    "15.6 inch HD LED Backlit Anti-glare TN Display (400 nits Brightness)"
+        ],
+        "EasyPaymentOtions":[
+                               "No cost EMI starting from ₹1,583/month",
+                               "on Delivery",
+                               "Net banking & Credit/ Debit/ ATM card"
+        ],
+        "images":"asus rog.jpeg"
+         
+    },
+
+    {
+        "id":"17",
+        "name":"Acer Nitro 5 Core i5 9th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA Geforce GTX 1650) AN515-54-521N Gaming Laptop  (15.6 inch, Obsidian Black, 2.3 kg)",
+        "rating":"4.3",
+        "mrp":"50000",
+        "dis":"2",
+        "Availableoffer":[
+                           "5 Unlimited Cashback on Flipkart Axis Bank Credit Card T&C",
+                            "5 Instant Discount on EMI with ICICI Bank Credit and Debit Cards T&C",
+                           "Extra 5 off* with Axis Bank Buzz Credit Card T&C",
+                           "Get upto ₹8400 off on exchange",
+                            " ₹1,583/month. Standard EMI also available "],
+        "Highlights":[
+                    "Pre-installed Genuine Windows 10 OS",
+                    "Laptop without Optical Disk Drive",
+                    "15.6 inch HD LED Backlit Anti-glare TN Display (400 nits Brightness)"
+        ],
+        "EasyPaymentOtions":[
+                               "No cost EMI starting from ₹1,583/month",
+                               "on Delivery",
+                               "Net banking & Credit/ Debit/ ATM card"
+        ],
+        "images":"acer i5.jpeg"
+         
+    },
+
+    {
+        "id":"18",
+        "name":"Lenovo Ideapad S145 APU Dual Core A6 - (4 GB/1 TB HDD/DOS) S145-15AST Laptop  (15.6 inch, Platinum Grey, 1.85 kg)",
+        "rating":"4.3",
+        "mrp":"50000",
+        "dis":"2",
+        "Availableoffer":[
+                           "5 Unlimited Cashback on Flipkart Axis Bank Credit Card T&C",
+                            "5 Instant Discount on EMI with ICICI Bank Credit and Debit Cards T&C",
+                           "Extra 5 off* with Axis Bank Buzz Credit Card T&C",
+                           "Get upto ₹8400 off on exchange",
+                            " ₹1,583/month. Standard EMI also available "],
+        "Highlights":[
+                    "Pre-installed Genuine Windows 10 OS",
+                    "Laptop without Optical Disk Drive",
+                    "15.6 inch HD LED Backlit Anti-glare TN Display (400 nits Brightness)"
+        ],
+        "EasyPaymentOtions":[
+                               "No cost EMI starting from ₹1,583/month",
+                               "on Delivery",
+                               "Net banking & Credit/ Debit/ ATM card"
+        ],
+        "images":"Lenevoideapad.jpeg"
+    },
+
+    {
+        "id":"19",
+        "name":"Lenovo Ideapad S145 APU Dual Core A6 - (4 GB/1 TB HDD/Windows 10 Home) S145-15AST Laptop  (15.6 inch, Platinum Grey, 1.85 kg)",
+        "rating":"4.3",
+        "mrp":"50000",
+        "dis":"2",
+        "Availableoffer":[
+                           "5 Unlimited Cashback on Flipkart Axis Bank Credit Card T&C",
+                            "5 Instant Discount on EMI with ICICI Bank Credit and Debit Cards T&C",
+                           "Extra 5 off* with Axis Bank Buzz Credit Card T&C",
+                           "Get upto ₹8400 off on exchange",
+                            " ₹1,583/month. Standard EMI also available "],
+        "Highlights":[
+                    "Pre-installed Genuine Windows 10 OS",
+                    "Laptop without Optical Disk Drive",
+                    "15.6 inch HD LED Backlit Anti-glare TN Display (400 nits Brightness)"
+        ],
+        "EasyPaymentOtions":[
+                               "No cost EMI starting from ₹1,583/month",
+                               "on Delivery",
+                               "Net banking & Credit/ Debit/ ATM card"
+        ],
+        "images":"lenevo.jpg"
+    },
+
+    {
+        "id":"20",
+        "name":"Lenovo Ideapad S145 APU Dual Core A6 - (4 GB/1 TB HDD/Windows 10 Home) S145-15AST Laptop  (15.6 inch, Platinum Grey, 1.85 kg)",
+        "rating":"4.3",
+        "mrp":"50000",
+        "dis":"2",
+        "Availableoffer":[
+                           "5 Unlimited Cashback on Flipkart Axis Bank Credit Card T&C",
+                            "5 Instant Discount on EMI with ICICI Bank Credit and Debit Cards T&C",
+                           "Extra 5 off* with Axis Bank Buzz Credit Card T&C",
+                           "Get upto ₹8400 off on exchange",
+                            " ₹1,583/month. Standard EMI also available "],
+        "Highlights":[
+                    "Pre-installed Genuine Windows 10 OS",
+                    "Laptop without Optical Disk Drive",
+                    "15.6 inch HD LED Backlit Anti-glare TN Display (400 nits Brightness)"
+        ],
+        "EasyPaymentOtions":[
+                               "No cost EMI starting from ₹1,583/month",
+                               "on Delivery",
+                               "Net banking & Credit/ Debit/ ATM card"
+        ],
+        "images":"lenevo.jpg"
+    }
+]
