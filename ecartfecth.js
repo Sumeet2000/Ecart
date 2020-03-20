@@ -21,12 +21,12 @@ function bind() {
     bind2 += '<div class="main1 padding">' +
       '<a href="#" class="anchor" class="link">' +
       '<div class="imagediv">' +
-      '<a href="http://127.0.0.1:5500/description.html?id=' + loop[i].id + '" title="laptop" class="link">' +
+      '<a href="https://sumeet2000.github.io/Ecart/description.html?id=' + loop[i].id + '" title="laptop" class="link">' +
       '<img src="' + loop[i].images + '" alt="Lenevo-Ideapad" class="image">' +
       '</a>' +
       '</div>' +
       '<div class="textdiv">' +
-      '<a href="http://127.0.0.1:5500/description.html?id=' + loop[i].id + '" title="laptop" class="link">' +
+      '<a href="http://sumeet2000.github.io/Ecart/description.html?id=' + loop[i].id + '" title="laptop" class="link">' +
       '<h3 class="text">' + loop[i].name + '</h3>' +
       '</a>' +
       '</div>' +
@@ -78,12 +78,12 @@ function newbind(newLoop) {
     bind2 += '<div class="main1 padding">' +
       '<a href="#" class="anchor" class="link">' +
       '<div class="imagediv">' +
-      '<a href="http://127.0.0.1:5500/description.html?id=' + newLoop[i].id + '" title="laptop" class="link">' +
+      '<a href="http://sumeet2000.github.io/Ecart/description.html?id=' + newLoop[i].id + '" title="laptop" class="link">' +
       '<img src="' + newLoop[i].images + '" alt="Lenevo-Ideapad" class="image">' +
       '</a>' +
       '</div>' +
       '<div class="textdiv">' +
-      '<a href="http://127.0.0.1:5500/description.html?id=' + newLoop[i].id + '" title="laptop" class="link">' +
+      '<a href="http://sumeet2000.github.io/Ecart/description.html?id=' + newLoop[i].id + '" title="laptop" class="link">' +
       '<h3 class="text">' + newLoop[i].name + '</h3>' +
       '</a>' +
       '</div>' +
